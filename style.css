@@ -66,3 +66,50 @@ body{
   top : 125px;
   padding : 10px
 }
+
+.choice{
+  display: inline-block;
+  width : 135px;
+  text-align: center;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding : 5px;
+}
+.choice:hover{
+  border : 2px solid grey;
+  font-weight: bold;
+}
+
+#timer{
+  position: absolute;
+  height : 100px;
+  width : 200px;
+  bottom : 0px;
+  text-align: center;
+}
+#counter{
+  font-size: 3em;
+}
+#btimeGauge{
+  width : 150px;
+  height : 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  margin-left : 25px;
+}
+#timeGauge{
+  height : 10px;
+  border-radius: 10px;
+  background-color: mediumseagreen;
+  margin-top : -10px;
+  margin-left : 25px;
+}
+#progress{
+  width : 500px;
+  position: absolute;
+  bottom : 0px;
+  right : 0px;
+  padding:5px;
+  text-align: right;
+}
